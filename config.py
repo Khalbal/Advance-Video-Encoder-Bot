@@ -13,7 +13,7 @@ class Config(object):
     FORCE_SUB) else None
    
     # database config
-    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://khalbal:pankaj00@205.251.193.174/?retryWrites=true&w=majority")  # ⚠️ Required
+    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://khalbal:pankaj00@cluster0.cungjwq.mongodb.net/?retryWrites=true&w=majority")  # ⚠️ Required
     DB_NAME  = os.environ.get("DB_NAME","KhalbalBot") 
 
     # Other Configs 
