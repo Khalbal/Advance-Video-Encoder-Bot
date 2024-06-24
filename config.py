@@ -5,10 +5,10 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "23898744")  # ⚠️ Required
-    API_HASH  = os.environ.get("API_HASH", "0b13c810c80b548604650cbe3c3db0c3") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6912498692:AAH0lO6ul6FdyrOG0Nh6uzKsImhFwZrGZWI") # ⚠️ Required
-    FORCE_SUB = os.environ.get('FORCE_SUB', 'Rohesh_Bots') # ⚠️ Required
+    API_ID    = os.environ.get("API_ID", "18799076")  # ⚠️ Required
+    API_HASH  = os.environ.get("API_HASH", "cc3177409ba6225505410699d47d6634") # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6542241794:AAHYL71jw4RIqVc9ZtT95VzO8hCtFX4iUcQ") # ⚠️ Required
+    FORCE_SUB = os.environ.get('FORCE_SUB', 'howtodownloadmega') # ⚠️ Required
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and id_pattern.search(
     FORCE_SUB) else None
    
